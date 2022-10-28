@@ -15,7 +15,6 @@
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post">
-      <!-- Personal information -->
       <fieldset>
         <legend>Personal information</legend>
         <label class="form-field">
@@ -27,6 +26,7 @@
             required
           >
         </label>
+
         <label class="form-field">
           Name:
           <input
@@ -36,6 +36,7 @@
             required
           >
         </label>
+
         <label class="form-field">
           How old are You?
           <input
@@ -46,23 +47,25 @@
             value="12"
           >
         </label>
+
         <label class="form-field">
           Full date of birth:
           <input
             type="date"
-            name="date_of_birth"
+            name="dateOfBirth"
           >
         </label>
+
         <label class="form-field-1">
           I accept the term of the agreement
           <input
-           type="checkbox"
+            type="checkbox"
             name="accept"
             required
           >
         </label>
       </fieldset>
-      <!-- Registration -->
+
       <fieldset>
         <legend>Registration</legend>
         <label class="form-field">
@@ -75,6 +78,7 @@
             required
           >
         </label>
+
         <label class="form-field-1">
           Password:
           <input
@@ -86,7 +90,7 @@
           >
         </label>
       </fieldset>
-      <!-- An interesting fact about you! -->
+
       <fieldset>
         <legend>An interesting fact about you!</legend>
         <label class="form-field">
@@ -104,6 +108,7 @@
           >
           No
         </label>
+
         <label class="form-field">
           What is your favorite color?
           <input
@@ -111,6 +116,7 @@
             name="color"
           >
         </label>
+
         <label class="form-field">
           What time do you go to bed?
           <input
@@ -118,9 +124,10 @@
             name="time"
           >
         </label>
+
         <label class="form-field">
           What are your favorite brand of cars?
-          <select name="brand_of_cars" multiple>
+          <select name="brandOfCars" multiple>
             <option value=" " disabled
             selected>
             </option>
@@ -129,6 +136,7 @@
             <option value="Lada">Lada</option>
           </select>
         </label>
+
         <label class="form-field-1">
           How do you rate our work?
           <input
@@ -138,7 +146,7 @@
           >
         </label>
       </fieldset>
-      <!-- Additional info: -->
+
       <fieldset>
         <legend>Additional info:</legend>
         <label class="form-field">
@@ -149,6 +157,7 @@
             rows="2"
          ></textarea>
         </label>
+
         <label class="form-field-1">
           Would you recommend us?
           <select name="recommend">
