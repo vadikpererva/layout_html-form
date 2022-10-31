@@ -1,4 +1,4 @@
-fieldset {
+.part-form {
   margin-bottom: 20px;
 }
 
@@ -7,6 +7,6 @@ fieldset {
   padding-bottom: 10px;
 }
 
-.form-field-1 {
-  display: block;
+label:nth-last-child(-n+1) {
+  padding-bottom: 0;
 }

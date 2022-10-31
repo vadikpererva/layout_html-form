@@ -15,7 +15,7 @@
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post">
-      <fieldset>
+      <fieldset class="part-form">
         <legend>Personal information</legend>
         <label class="form-field">
           Surname:
@@ -56,7 +56,7 @@
           >
         </label>
 
-        <label class="form-field-1">
+        <label class="form-field">
           I accept the term of the agreement
           <input
             type="checkbox"
@@ -66,7 +66,7 @@
         </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="part-form">
         <legend>Registration</legend>
         <label class="form-field">
           E-mail:
@@ -79,7 +79,7 @@
           >
         </label>
 
-        <label class="form-field-1">
+        <label class="form-field">
           Password:
           <input
             type="password"
@@ -91,19 +91,19 @@
         </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="part-form">
         <legend>An interesting fact about you!</legend>
         <label class="form-field">
           Do you love cats?
           <input
             type="radio"
-            name="cat"
-            value="Y"
+            name=" "
+            value="Yes"
           >
           Yes
           <input
             type="radio"
-            name="cat"
+            name=" "
             value="N"
           >
           No
@@ -111,18 +111,12 @@
 
         <label class="form-field">
           What is your favorite color?
-          <input
-            type="color"
-            name="color"
-          >
+          <input type="color" name="color">
         </label>
 
         <label class="form-field">
           What time do you go to bed?
-          <input
-            type="time"
-            name="time"
-          >
+          <input type="time" name="time">
         </label>
 
         <label class="form-field">
@@ -137,7 +131,7 @@
           </select>
         </label>
 
-        <label class="form-field-1">
+        <label class="form-field">
           How do you rate our work?
           <input
             type="range"
@@ -147,7 +141,7 @@
         </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="part-form">
         <legend>Additional info:</legend>
         <label class="form-field">
           Comments:
@@ -158,7 +152,7 @@
          ></textarea>
         </label>
 
-        <label class="form-field-1">
+        <label class="form-field">
           Would you recommend us?
           <select name="recommend">
             <option value="Yes">Yes</option>
