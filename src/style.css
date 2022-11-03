@@ -7,6 +7,6 @@
   padding-bottom: 10px;
 }
 
-label:nth-last-child(-n+1) {
+.form-field:nth-last-child(-n+1) {
   padding-bottom: 0;
 }
