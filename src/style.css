@@ -4,9 +4,9 @@
 
 .form-field {
   display: block;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .form-field:nth-last-child(-n+1) {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
